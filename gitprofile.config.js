@@ -2,18 +2,20 @@
 
 const config = {
   scratch: {
-    username: 'theyoungmaker', // Your Scratch username. (Required)
+    username: 'theyoungmakerta', // Your Scratch username. (Required)
     limit: 8, // How many projects to display; maximum 20
-    sortBy: 'date', // date | views | remixes
+    sortBy: 'date', // date | views | remixes,
+    corsProxy: "https://scratchapicors-kppuummon-theyoungmaker.vercel.app/" // Enter your CORS Proxy here
   },
   github: {
-    username: 'theyoungmaker', // Your GitHub org/user name. (Required)
+    username: 'maru1996sg', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
+   
   },
   social: {
     linkedin: 'company/the-young-maker/',
