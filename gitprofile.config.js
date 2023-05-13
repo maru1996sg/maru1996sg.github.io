@@ -2,7 +2,7 @@
 
 const config = {
   scratch: {
-    username: 'theyoungmakerta', // Your Scratch username. (Required) a
+    username: 'theyoungmaker', // Your Scratch username. (Required)
     limit: 8, // How many projects to display; maximum 20
     sortBy: 'date', // date | views | remixes,
     corsProxy: "https://scratchapicors-kppuummon-theyoungmaker.vercel.app/" // Enter your CORS Proxy here
